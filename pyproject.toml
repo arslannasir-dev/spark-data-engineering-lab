@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spark-data-engineering-lab"
+version = "0.1.0"
+description = "PySpark Data Engineering Lab"
+authors = [
+  {name = "Arslan"}
+]
+dependencies = [
+  "pyspark",
+  "pandas",
+  "jupyter",
+  "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,13 @@
+data/raw/*.csv
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.sparkbenchprim
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+*.csv
+*.parquet
+spark-warehouse/
