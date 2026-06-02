@@ -11,3 +11,9 @@ data/
 *.csv
 *.parquet
 spark-warehouse/
+spark/
+venv/
+.env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
